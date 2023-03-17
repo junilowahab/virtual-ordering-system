@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bakery_images/brett-jordan-U15Q9FIhsjE-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+.menu{
+    margin: auto 0;
+    margin-left: 50px;
+}
+
+ul{
+    list-style: none;
+    font-size: 40px;
+}
+
+li{
+    margin: 15px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+li:hover{
+    margin-left: 50px;
+    font-size: larger;
+    cursor: pointer;
+}
