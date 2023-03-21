@@ -4,12 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
+.image-slider{
     background-image: url(./bakery_images/brett-jordan-U15Q9FIhsjE-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-direction: column;
     width: 100vw;
     height: 100vh;
 }
@@ -17,6 +15,33 @@ body{
 h1{
     margin: 0 auto;
     font-size: 50px;
+    width: fit-content;
+}
+
+.arrow-left, .arrow-right{
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.arrow-left:hover, .arrow-right:hover{
+    background-color: brown;
+}
+
+.arrow-left{
+    left: 10px;
+}
+
+.arrow-right{
+    right: 10px;
 }
 
 .menu{
@@ -39,4 +64,13 @@ li:hover{
     margin-left: 50px;
     font-size: larger;
     cursor: pointer;
+}
+
+.image-fade {
+    animation: imgFade 0.5s ease-in-out;
+}
+
+@keyframes imgFade {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }
