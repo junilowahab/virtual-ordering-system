@@ -81,6 +81,11 @@ li:hover{
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 .image-fade {
     animation: imgFade 0.5s ease-in-out;
 }
