@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+nav h1{
+    margin: 0 auto;
+}
+
+.goods{
+    height: 300px;
+    width: 90%;
+    margin: 20px;
+}
+
+.horizontal-line{
+    height: 1px;
+    width: 90%;
+    border: 1px solid grey;
+    margin-left: 70px;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+}
+
+.prod-window{
+    border: 2px solid black;
+    height: 200px;
+    width: 150px;
+    margin-right: 20px;
+}
