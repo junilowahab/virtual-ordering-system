@@ -4,7 +4,7 @@ const arrLeft = document.querySelector('.arrow-left');
 const arrRight = document.querySelector('.arrow-right');
 
 //Created an array containing the different background images
-const img = ['brett-jordan-U15Q9FIhsjE-unsplash.jpg', 'keesha-s-kitchen-_y325luZNUs-unsplash.jpg', 'sanju-m-gurung-WX-wxGHFTzA-unsplash.jpg', 'tabitha-turner-PSqT-lQAt7A-unsplash.jpg'];
+const img = ['brett-jordan-U15Q9FIhsjE-unsplash.jpg', 'keesha-s-kitchen-_y325luZNUs-unsplash.jpg', 'sanju-m-gurung-WX-wxGHFTzA-unsplash.jpg', 'pexels-spencer-selover-428310.jpg'];
 
 //This represents the index of the image array
 let id = 0;
