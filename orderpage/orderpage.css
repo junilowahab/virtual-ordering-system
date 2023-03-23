@@ -44,7 +44,7 @@ nav h1{
 }
 
 .prod-window{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 200px;
     width: 300px;
     margin-right: 20px;
@@ -66,4 +66,16 @@ nav h1{
     background-image: url(../bakery_images/coffeecup.jpeg);
     background-position: center;
     background-size: cover;
+}
+
+.overlay{
+    width: 300px;
+    height: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 2;
+    transition: .1s;
+}
+
+.prod-window:hover > .overlay{
+    height: 200px;
 }
