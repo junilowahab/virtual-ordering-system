@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&display=swap');
 
 *{
     margin: 0;
@@ -14,6 +15,8 @@ body{
     background-image: url(../bakery_images/jakub-dziubak-XtUd5SiX464-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
+    transition: 2s;
 }
 
 img{
@@ -30,6 +33,12 @@ nav{
 
 nav h1{
     margin: 0 auto;
+    font-size: 40px;
+}
+
+section h3{
+    font-size: 30px;
+    /* font-family: 'Edu NSW ACT Foundation', cursive; */
 }
 
 .goods{
