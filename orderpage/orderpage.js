@@ -14,6 +14,15 @@ timer = setInterval(() => {
 
 window.addEventListener('load', automaticSlider);
 
+//Opening the cart
+let cart = document.getElementById('cart');
+let cartButton = document.getElementById('cart-button');
+
+cartButton.addEventListener('click',() => {
+    cart.style.left = '100%'?cart.style.left = '50%':cart.style.left = '100%';
+    cart.style.left = '100%'?cartButton.style.zIndex = '2':cart.style.zIndex = '-1';
+})
+
 //GETTING DATA
 
 //

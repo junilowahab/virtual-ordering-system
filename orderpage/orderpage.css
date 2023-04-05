@@ -132,3 +132,24 @@ button:hover{
     cursor: pointer;
     background-position: right;
 }
+
+.cart-page{
+    position: fixed;
+    top: 0%;
+    left: 100%;
+    background-color: wheat;
+    height: 100%;
+    width: 50%;
+    transition: .3s;
+}
+
+#cart-button{
+    position: fixed;
+    top: 0;
+    left: 96%;
+    margin: 0;
+}
+
+.cart-page h1{
+    margin: 0 auto;
+}
