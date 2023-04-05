@@ -19,6 +19,7 @@
 
 nav{
     display: flex;
+    background-image: linear-gradient(to bottom, white, transparent);
 }
 
 h1{
