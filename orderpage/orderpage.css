@@ -11,7 +11,7 @@
 body{
     height: 100%;
     width: 100%;
-    background-image: url(../bakery_images/jakub-dziubak-XtUd5SiX464-unsplash.jpg);
+    background-image: url(../bakery_images/steve-harvey-U4wcrDteZ2Y-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -33,11 +33,15 @@ nav{
 nav h1{
     margin: 0 auto;
     font-size: 40px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+    color: wheat;
 }
 
 section h3{
     font-size: 30px;
-    /* font-family: 'Edu NSW ACT Foundation', cursive; */
+    color: wheat;
+
 }
 
 .goods{
@@ -80,8 +84,12 @@ section h3{
     background-image: url(../bakery_images/Perfect-vanilla-cupcake.webp);
 }
 
-.savory{
+.moimoi{
     background-image: url(../bakery_images/moimoi.jpeg);
+}
+
+.akara{
+    background-image: url(../bakery_images/akara-e1506724484724.jpg);
 }
 
 .beverage{

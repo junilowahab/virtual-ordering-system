@@ -1,4 +1,4 @@
-const wallpapers = ['jakub-dziubak-XtUd5SiX464-unsplash.jpg', 'nathan-dumlao-gOn7dKcCWKg-unsplash.jpg', 'mae-mu-m9pzwmxm2rk-unsplash.jpg', 'joshua-hoehne-30-l5M0v_m8-unsplash.jpg'];
+const wallpapers = ['steve-harvey-U4wcrDteZ2Y-unsplash.jpg', 'nathan-dumlao-gOn7dKcCWKg-unsplash.jpg', 'mae-mu-m9pzwmxm2rk-unsplash.jpg', 'joshua-hoehne-30-l5M0v_m8-unsplash.jpg'];
 
 function automaticSlider(){
     let id = 0;
