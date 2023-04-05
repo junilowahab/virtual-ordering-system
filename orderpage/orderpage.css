@@ -64,24 +64,28 @@ section h3{
     width: 300px;
     margin-left: 80px;
     box-shadow: 5px 5px 10px;
-}
-
-.pastry{
-    background-image: url(../bakery_images/puff.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.puff{
+    background-image: url(../bakery_images/puff.jpg);
+}
+
+.samosa{
+    background-image: url(../bakery_images/how_to_fry_samosa_and_spring_roll.jpg);
+}
+
+.cake{
+    background-image: url(../bakery_images/Perfect-vanilla-cupcake.webp);
 }
 
 .savory{
     background-image: url(../bakery_images/moimoi.jpeg);
-    background-position: center;
-    background-size: cover;
 }
 
 .beverage{
     background-image: url(../bakery_images/coffeecup.jpeg);
-    background-position: center;
-    background-size: cover;
 }
 
 .overlay{

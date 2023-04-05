@@ -14,15 +14,16 @@ timer = setInterval(() => {
 
 window.addEventListener('load', automaticSlider);
 
-//Getting data
+//GETTING DATA
+
+//
 let puffButton = document.getElementById('puff');
 let buttons = document.querySelectorAll('.button')
-console.log(buttons)
 
-//Object containing product data
+//Object containing products data
 let orderData = {}; 
 
-//order data gets filled with product data
+//orderData object gets filled with product data
 buttons.forEach(button => {
     button.addEventListener('click', () => {
         orderData['productName'] = document.getElementById(`${button.getAttribute('id')}-name`).innerText;
