@@ -18,16 +18,29 @@ window.addEventListener('load', automaticSlider);
 let cart = document.getElementById('cart');
 let cartButton = document.getElementById('cart-button');
 
-cartButton.addEventListener('click',() => {
-    cart.style.left = '100%'?cart.style.left = '50%':cart.style.left = '100%';
-    cart.style.left = '100%'?cartButton.style.zIndex = '2':cart.style.zIndex = '-1';
-})
+cartButton.addEventListener('click', openCart)
+
+function openCart(){
+    if(cart.style.left = '1400px'){
+        cart.style.left = '700px';
+    };
+};
+
+//Closing the cart
+let closeButton = document.getElementById('close-button');
+closeButton.addEventListener('click', closeCart);
+
+function closeCart(){
+    if(cart.style.left = '700px'){
+        cart.style.left = '1400px';
+    };
+};
 
 //GETTING DATA
 
 //
 let puffButton = document.getElementById('puff');
-let buttons = document.querySelectorAll('.button')
+let buttons = document.querySelectorAll('.button');
 
 //Object containing products data
 let orderData = {}; 

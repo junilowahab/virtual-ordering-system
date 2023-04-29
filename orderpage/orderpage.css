@@ -136,7 +136,7 @@ button:hover{
 .cart-page{
     position: fixed;
     top: 0%;
-    left: 100%;
+    left: 1400px;
     background-color: wheat;
     height: 100%;
     width: 50%;
@@ -150,6 +150,14 @@ button:hover{
     margin: 0;
 }
 
+#cart-button:hover{
+    cursor: pointer;
+}
+
 .cart-page h1{
     margin: 0 auto;
+}
+
+#close-button:hover{
+    cursor: pointer;
 }
